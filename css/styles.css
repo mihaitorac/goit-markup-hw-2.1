@@ -1,0 +1,73 @@
+:root{
+    --primary-color: #4D5AE5;
+    --blue-primary-text: #2E2F42;
+    --address-color: #434455;
+    --blue-secondary-text: #404BBF;
+}
+.header {
+ background: #FFFFFF;
+}
+.body {
+ font-family: "Roboto","Raleway", sans-serif, ;
+ color: var(--blue-primary-text);
+}
+.logo-text {
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;y 
+/* color var(--primary-color) */
+color: var (--primary-color);
+}
+.header-link, {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--blue-primary-text);
+}
+.header-link:hover {
+ color: var(--blue-secondary-text);
+ }
+.header-link:active{
+ color: var(--blue-secondary-text);
+} 
+.header-nav{
+    color: var(--blue-secondary-text);
+}
+.address {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--address-color);
+}
+.address:hover{
+  font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--blue-secondary-text);  
+}
+.primary-button {
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+.button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    width: 169;
+    height: 56;
+    cursor: pointer;
+}
+.button:hover {
+    color: white;
+    background-color: #404BBF;
+    width: 169;
+    height: 56;
+}
